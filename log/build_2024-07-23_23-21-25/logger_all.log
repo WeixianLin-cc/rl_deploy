@@ -1,0 +1,208 @@
+[0.975s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.975s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7cb917c700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7cb917c700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7cb9537f70>)
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.021s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lwx/data/git/rl_deploy'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extension 'ignore_ament_install'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extensions ['colcon_pkg']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extension 'colcon_pkg'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extensions ['colcon_meta']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extension 'colcon_meta'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extensions ['ros']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/common_msg) by extension 'ros'
+[1.028s] DEBUG:colcon.colcon_core.package_identification:Package 'src/common_msg' with type 'ros.ament_cmake' and name 'common_msg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extensions ['colcon_pkg']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/rl_deploy) by extension 'ros'
+[1.029s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rl_deploy' with type 'ros.ament_python' and name 'rl_deploy'
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 322 installed packages in /opt/ros/foxy
+[1.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'cmake_target' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.224s] Level 5:colcon.colcon_core.verb:set package 'common_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.224s] DEBUG:colcon.colcon_core.verb:Building package 'common_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lwx/data/git/rl_deploy/build/common_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lwx/data/git/rl_deploy/install/common_msg', 'merge_install': False, 'path': '/home/lwx/data/git/rl_deploy/src/common_msg', 'symlink_install': False, 'test_result_base': None}
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'cmake_target' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'cmake_clean_first' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'cmake_force_configure' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'ament_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'rl_deploy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.241s] DEBUG:colcon.colcon_core.verb:Building package 'rl_deploy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lwx/data/git/rl_deploy/build/rl_deploy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lwx/data/git/rl_deploy/install/rl_deploy', 'merge_install': False, 'path': '/home/lwx/data/git/rl_deploy/src/rl_deploy', 'symlink_install': False, 'test_result_base': None}
+[1.257s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lwx/data/git/rl_deploy/src/common_msg' with build type 'ament_cmake'
+[1.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lwx/data/git/rl_deploy/src/common_msg'
+[1.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lwx/data/git/rl_deploy/build/common_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lwx/data/git/rl_deploy/src/common_msg -DCMAKE_INSTALL_PREFIX=/home/lwx/data/git/rl_deploy/install/common_msg
+[2.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lwx/data/git/rl_deploy/build/common_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lwx/data/git/rl_deploy/src/common_msg -DCMAKE_INSTALL_PREFIX=/home/lwx/data/git/rl_deploy/install/common_msg
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lwx/data/git/rl_deploy/build/common_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lwx/data/git/rl_deploy/build/common_msg -- -j20 -l20
+[4.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lwx/data/git/rl_deploy/build/common_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lwx/data/git/rl_deploy/build/common_msg -- -j20 -l20
+[4.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lwx/data/git/rl_deploy/build/common_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lwx/data/git/rl_deploy/build/common_msg
+[4.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_msg)
+[4.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lwx/data/git/rl_deploy/build/common_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lwx/data/git/rl_deploy/build/common_msg
+[4.930s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg' for CMake module files
+[4.930s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg' for CMake config files
+[4.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msg', 'cmake_prefix_path')
+[4.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/cmake_prefix_path.ps1'
+[4.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/cmake_prefix_path.dsv'
+[4.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/cmake_prefix_path.sh'
+[4.948s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/lib'
+[4.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msg', 'ld_library_path_lib')
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/ld_library_path_lib.ps1'
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/ld_library_path_lib.dsv'
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/ld_library_path_lib.sh'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/bin'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/lib/pkgconfig/common_msg.pc'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/lib/python3.8/site-packages'
+[4.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msg', 'pythonpath')
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/pythonpath.ps1'
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/pythonpath.dsv'
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/pythonpath.sh'
+[4.982s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/bin'
+[4.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.ps1'
+[4.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.dsv'
+[4.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.sh'
+[5.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.bash'
+[5.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.zsh'
+[5.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lwx/data/git/rl_deploy/install/common_msg/share/colcon-core/packages/common_msg)
+[5.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(common_msg)
+[5.106s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg' for CMake module files
+[5.106s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg' for CMake config files
+[5.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msg', 'cmake_prefix_path')
+[5.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/cmake_prefix_path.ps1'
+[5.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/cmake_prefix_path.dsv'
+[5.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/cmake_prefix_path.sh'
+[5.124s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/lib'
+[5.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msg', 'ld_library_path_lib')
+[5.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/ld_library_path_lib.ps1'
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/ld_library_path_lib.dsv'
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/ld_library_path_lib.sh'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/bin'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/lib/pkgconfig/common_msg.pc'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/lib/python3.8/site-packages'
+[5.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('common_msg', 'pythonpath')
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/pythonpath.ps1'
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/pythonpath.dsv'
+[5.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/hook/pythonpath.sh'
+[5.158s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/common_msg/bin'
+[5.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.ps1'
+[5.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.dsv'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.sh'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.bash'
+[5.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/common_msg/share/common_msg/package.zsh'
+[5.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lwx/data/git/rl_deploy/install/common_msg/share/colcon-core/packages/common_msg)
+[5.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lwx/data/git/rl_deploy/src/rl_deploy' with build type 'ament_python'
+[5.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('rl_deploy', 'ament_prefix_path')
+[5.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/hook/ament_prefix_path.ps1'
+[5.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/hook/ament_prefix_path.dsv'
+[5.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/hook/ament_prefix_path.sh'
+[5.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.343s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lwx/data/git/rl_deploy/src/rl_deploy'
+[5.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lwx/data/git/rl_deploy/src/rl_deploy': AMENT_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg LD_LIBRARY_PATH=/home/lwx/data/git/rl_deploy/install/common_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/lib:/usr/local/cuda-12.1/lib64 PYTHONPATH=/home/lwx/data/git/rl_deploy/build/rl_deploy/prefix_override:/home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages:/home/lwx/data/git/rl_deploy/install/common_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rl_deploy build --build-base /home/lwx/data/git/rl_deploy/build/rl_deploy/build install --record /home/lwx/data/git/rl_deploy/build/rl_deploy/install.log --install-scripts $base/lib/rl_deploy --single-version-externally-managed
+[5.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lwx/data/git/rl_deploy/src/rl_deploy' returned '0': AMENT_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg LD_LIBRARY_PATH=/home/lwx/data/git/rl_deploy/install/common_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/lib:/usr/local/cuda-12.1/lib64 PYTHONPATH=/home/lwx/data/git/rl_deploy/build/rl_deploy/prefix_override:/home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages:/home/lwx/data/git/rl_deploy/install/common_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rl_deploy build --build-base /home/lwx/data/git/rl_deploy/build/rl_deploy/build install --record /home/lwx/data/git/rl_deploy/build/rl_deploy/install.log --install-scripts $base/lib/rl_deploy --single-version-externally-managed
+[5.725s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy' for CMake module files
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy' for CMake config files
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy/lib'
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy/bin'
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy/lib/pkgconfig/rl_deploy.pc'
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages'
+[5.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('rl_deploy', 'pythonpath')
+[5.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/hook/pythonpath.ps1'
+[5.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/hook/pythonpath.dsv'
+[5.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/hook/pythonpath.sh'
+[5.743s] Level 1:colcon.colcon_core.environment:checking '/home/lwx/data/git/rl_deploy/install/rl_deploy/bin'
+[5.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rl_deploy)
+[5.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/package.ps1'
+[5.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/package.dsv'
+[5.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/package.sh'
+[5.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/package.bash'
+[5.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy/package.zsh'
+[5.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lwx/data/git/rl_deploy/install/rl_deploy/share/colcon-core/packages/rl_deploy)
+[5.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.761s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.788s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lwx/data/git/rl_deploy/install/local_setup.ps1'
+[5.806s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lwx/data/git/rl_deploy/install/_local_setup_util_ps1.py'
+[5.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lwx/data/git/rl_deploy/install/setup.ps1'
+[5.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lwx/data/git/rl_deploy/install/local_setup.sh'
+[5.823s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lwx/data/git/rl_deploy/install/_local_setup_util_sh.py'
+[5.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lwx/data/git/rl_deploy/install/setup.sh'
+[5.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lwx/data/git/rl_deploy/install/local_setup.bash'
+[5.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lwx/data/git/rl_deploy/install/setup.bash'
+[5.858s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lwx/data/git/rl_deploy/install/local_setup.zsh'
+[5.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lwx/data/git/rl_deploy/install/setup.zsh'

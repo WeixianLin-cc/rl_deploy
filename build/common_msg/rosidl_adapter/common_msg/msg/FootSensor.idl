@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/FootSensor.msg
+// generated code does not contain a copyright notice
+
+
+module common_msg {
+  module msg {
+    typedef float float__18[18];
+    struct FootSensor {
+      float__18 left_foot_sensor;
+
+      float__18 right_foot_sensor;
+    };
+  };
+};

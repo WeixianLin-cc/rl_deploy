@@ -1,0 +1,11 @@
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/LowCmd.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/MotorCmd.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/MotorControlCmd.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/MotorControlArray.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/MotorState.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/LowState.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/MotorSet.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/MotorStateArray.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/BmsState.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/Imu.idl
+/home/lwx/data/git/rl_deploy/build/common_msg/rosidl_adapter/common_msg:msg/FootSensor.idl

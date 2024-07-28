@@ -1,0 +1,3 @@
+[console_scripts]
+rl_node = rl_deploy.rl_deploy:main
+

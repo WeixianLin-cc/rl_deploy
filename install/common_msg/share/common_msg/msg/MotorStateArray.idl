@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/MotorStateArray.msg
+// generated code does not contain a copyright notice
+
+#include "common_msg/msg/MotorState.idl"
+
+module common_msg {
+  module msg {
+    struct MotorStateArray {
+      sequence<common_msg::msg::MotorState> motor_state;
+    };
+  };
+};

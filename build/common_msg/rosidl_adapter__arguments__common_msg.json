@@ -1,0 +1,16 @@
+{
+  "package_name": "common_msg",
+  "non_idl_tuples": [
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/LowCmd.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/MotorCmd.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/MotorControlCmd.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/MotorControlArray.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/MotorState.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/LowState.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/MotorSet.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/MotorStateArray.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/BmsState.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/Imu.msg",
+    "/home/lwx/data/git/rl_deploy/src/common_msg:msg/FootSensor.msg"
+  ]
+}

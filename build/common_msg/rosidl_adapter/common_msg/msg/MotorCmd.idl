@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/MotorCmd.msg
+// generated code does not contain a copyright notice
+
+
+module common_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "电机控制参数")
+    struct MotorCmd {
+      uint8 mode;
+
+      float q;
+
+      float dq;
+
+      float tau;
+
+      float kp;
+
+      float kd;
+    };
+  };
+};

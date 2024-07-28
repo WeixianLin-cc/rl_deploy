@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/rl_deploy/rl_deploy.egg-info
+writing ../../build/rl_deploy/rl_deploy.egg-info/PKG-INFO
+writing dependency_links to ../../build/rl_deploy/rl_deploy.egg-info/dependency_links.txt
+writing entry points to ../../build/rl_deploy/rl_deploy.egg-info/entry_points.txt
+writing requirements to ../../build/rl_deploy/rl_deploy.egg-info/requires.txt
+writing top-level names to ../../build/rl_deploy/rl_deploy.egg-info/top_level.txt
+writing manifest file '../../build/rl_deploy/rl_deploy.egg-info/SOURCES.txt'
+reading manifest file '../../build/rl_deploy/rl_deploy.egg-info/SOURCES.txt'
+writing manifest file '../../build/rl_deploy/rl_deploy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lwx/data/git/rl_deploy/build/rl_deploy/build
+creating /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib
+creating /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+copying rl_deploy/legged_robot_config.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+copying rl_deploy/base_config.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+copying rl_deploy/rl_deploy copy.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+copying rl_deploy/__init__.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+copying rl_deploy/rl_deploy.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+copying rl_deploy/humanoid_config.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+running install
+running install_lib
+creating /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/legged_robot_config.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/base_config.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/rl_deploy copy.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/__init__.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/rl_deploy.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/humanoid_config.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/legged_robot_config.py to legged_robot_config.cpython-38.pyc
+byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/base_config.py to base_config.cpython-38.pyc
+byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/rl_deploy copy.py to rl_deploy copy.cpython-38.pyc
+byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/rl_deploy.py to rl_deploy.cpython-38.pyc
+byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/humanoid_config.py to humanoid_config.cpython-38.pyc
+running install_data
+creating /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index
+creating /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index/resource_index
+creating /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index/resource_index/packages
+copying resource/rl_deploy -> /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index/resource_index/packages
+copying package.xml -> /home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy
+running install_egg_info
+Copying ../../build/rl_deploy/rl_deploy.egg-info to /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rl_node script to /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/rl_deploy
+writing list of installed files to '/home/lwx/data/git/rl_deploy/build/rl_deploy/install.log'

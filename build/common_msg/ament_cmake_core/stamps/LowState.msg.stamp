@@ -1,0 +1,4 @@
+MotorState[30] motor_state_struct
+Imu imu_state_struct
+BmsState bms_state_struct
+FootSensor foot_senser_state_struct

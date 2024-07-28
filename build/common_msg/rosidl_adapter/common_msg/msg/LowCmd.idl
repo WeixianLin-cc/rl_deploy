@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/LowCmd.msg
+// generated code does not contain a copyright notice
+
+#include "common_msg/msg/MotorCmd.idl"
+
+module common_msg {
+  module msg {
+    typedef common_msg::msg::MotorCmd common_msg__msg__MotorCmd;
+    typedef common_msg__msg__MotorCmd common_msg__msg__MotorCmd__30[30];
+    struct LowCmd {
+      common_msg__msg__MotorCmd__30 motor_cmd;
+    };
+  };
+};

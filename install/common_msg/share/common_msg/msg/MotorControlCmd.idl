@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/MotorControlCmd.msg
+// generated code does not contain a copyright notice
+
+
+module common_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      " mode = 0 混合力矩模式" "\n"
+      " mode = 1 位置模式" "\n"
+      " mode = 2 速度模式" "\n"
+      " mode = 3 电流、力矩控制模式和刹车控制指令")
+    struct MotorControlCmd {
+      @verbatim (language="comment", text=
+        " mode = 13 设置电机零点" "\n"
+        " mode = 14 设置电机ID" "\n"
+        " mode = 82 查询电机ID")
+      uint8 mode;
+
+      uint8 index;
+
+      uint8 slave;
+
+      @verbatim (language="comment", text=
+        " motor_id 为电机CAN_id  , 只能在1-6.")
+      uint16 motor_id;
+
+      uint16 motor_id_new;
+
+      @verbatim (language="comment", text=
+        " 单位 rad/s")
+      float speed;
+
+      @verbatim (language="comment", text=
+        " 单位 A")
+      float current;
+
+      @verbatim (language="comment", text=
+        " 单位 rad")
+      float position;
+
+      float tau;
+
+      float kp;
+
+      float kd;
+    };
+  };
+};

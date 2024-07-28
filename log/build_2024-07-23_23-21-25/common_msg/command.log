@@ -1,0 +1,6 @@
+Invoking command in '/home/lwx/data/git/rl_deploy/build/common_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lwx/data/git/rl_deploy/src/common_msg -DCMAKE_INSTALL_PREFIX=/home/lwx/data/git/rl_deploy/install/common_msg
+Invoked command in '/home/lwx/data/git/rl_deploy/build/common_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/lwx/data/git/rl_deploy/src/common_msg -DCMAKE_INSTALL_PREFIX=/home/lwx/data/git/rl_deploy/install/common_msg
+Invoking command in '/home/lwx/data/git/rl_deploy/build/common_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lwx/data/git/rl_deploy/build/common_msg -- -j20 -l20
+Invoked command in '/home/lwx/data/git/rl_deploy/build/common_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/lwx/data/git/rl_deploy/build/common_msg -- -j20 -l20
+Invoking command in '/home/lwx/data/git/rl_deploy/build/common_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lwx/data/git/rl_deploy/build/common_msg
+Invoked command in '/home/lwx/data/git/rl_deploy/build/common_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/lwx/data/git/rl_deploy/build/common_msg

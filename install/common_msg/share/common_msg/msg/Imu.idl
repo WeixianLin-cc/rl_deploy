@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/Imu.msg
+// generated code does not contain a copyright notice
+
+
+module common_msg {
+  module msg {
+    typedef float float__4[4];
+    typedef float float__3[3];
+    @verbatim (language="comment", text=
+      "姿态四元数")
+    struct Imu {
+      float__4 quaternion;
+
+      @verbatim (language="comment", text=
+        "角速度")
+      float__3 gyroscope;
+
+      @verbatim (language="comment", text=
+        "加速度信息")
+      float__3 accelerometer;
+
+      @verbatim (language="comment", text=
+        "欧拉角(弧度)")
+      float__3 rpy;
+    };
+  };
+};

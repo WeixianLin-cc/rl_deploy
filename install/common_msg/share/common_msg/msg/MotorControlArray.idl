@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from common_msg/msg/MotorControlArray.msg
+// generated code does not contain a copyright notice
+
+#include "common_msg/msg/MotorControlCmd.idl"
+
+module common_msg {
+  module msg {
+    struct MotorControlArray {
+      sequence<common_msg::msg::MotorControlCmd> motor_control;
+    };
+  };
+};

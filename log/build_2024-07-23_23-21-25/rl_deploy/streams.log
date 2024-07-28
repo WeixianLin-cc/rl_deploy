@@ -1,0 +1,49 @@
+[0.398s] Invoking command in '/home/lwx/data/git/rl_deploy/src/rl_deploy': AMENT_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg LD_LIBRARY_PATH=/home/lwx/data/git/rl_deploy/install/common_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/lib:/usr/local/cuda-12.1/lib64 PYTHONPATH=/home/lwx/data/git/rl_deploy/build/rl_deploy/prefix_override:/home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages:/home/lwx/data/git/rl_deploy/install/common_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rl_deploy build --build-base /home/lwx/data/git/rl_deploy/build/rl_deploy/build install --record /home/lwx/data/git/rl_deploy/build/rl_deploy/install.log --install-scripts $base/lib/rl_deploy --single-version-externally-managed
+[0.488s] running egg_info
+[0.489s] creating ../../build/rl_deploy/rl_deploy.egg-info
+[0.489s] writing ../../build/rl_deploy/rl_deploy.egg-info/PKG-INFO
+[0.489s] writing dependency_links to ../../build/rl_deploy/rl_deploy.egg-info/dependency_links.txt
+[0.489s] writing entry points to ../../build/rl_deploy/rl_deploy.egg-info/entry_points.txt
+[0.489s] writing requirements to ../../build/rl_deploy/rl_deploy.egg-info/requires.txt
+[0.489s] writing top-level names to ../../build/rl_deploy/rl_deploy.egg-info/top_level.txt
+[0.489s] writing manifest file '../../build/rl_deploy/rl_deploy.egg-info/SOURCES.txt'
+[0.504s] reading manifest file '../../build/rl_deploy/rl_deploy.egg-info/SOURCES.txt'
+[0.504s] writing manifest file '../../build/rl_deploy/rl_deploy.egg-info/SOURCES.txt'
+[0.504s] running build
+[0.504s] running build_py
+[0.505s] creating /home/lwx/data/git/rl_deploy/build/rl_deploy/build
+[0.505s] creating /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib
+[0.505s] creating /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] copying rl_deploy/legged_robot_config.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] copying rl_deploy/base_config.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] copying rl_deploy/rl_deploy copy.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] copying rl_deploy/__init__.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] copying rl_deploy/rl_deploy.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] copying rl_deploy/humanoid_config.py -> /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy
+[0.505s] running install
+[0.505s] running install_lib
+[0.506s] creating /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/legged_robot_config.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/base_config.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/rl_deploy copy.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/__init__.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/rl_deploy.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] copying /home/lwx/data/git/rl_deploy/build/rl_deploy/build/lib/rl_deploy/humanoid_config.py -> /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy
+[0.506s] byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/legged_robot_config.py to legged_robot_config.cpython-38.pyc
+[0.507s] byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/base_config.py to base_config.cpython-38.pyc
+[0.507s] byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/rl_deploy copy.py to rl_deploy copy.cpython-38.pyc
+[0.507s] byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/__init__.py to __init__.cpython-38.pyc
+[0.507s] byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/rl_deploy.py to rl_deploy.cpython-38.pyc
+[0.508s] byte-compiling /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy/humanoid_config.py to humanoid_config.cpython-38.pyc
+[0.509s] running install_data
+[0.509s] creating /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index
+[0.509s] creating /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index/resource_index
+[0.509s] creating /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index/resource_index/packages
+[0.509s] copying resource/rl_deploy -> /home/lwx/data/git/rl_deploy/install/rl_deploy/share/ament_index/resource_index/packages
+[0.509s] copying package.xml -> /home/lwx/data/git/rl_deploy/install/rl_deploy/share/rl_deploy
+[0.509s] running install_egg_info
+[0.510s] Copying ../../build/rl_deploy/rl_deploy.egg-info to /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages/rl_deploy-0.0.0-py3.8.egg-info
+[0.510s] running install_scripts
+[0.518s] Installing rl_node script to /home/lwx/data/git/rl_deploy/install/rl_deploy/lib/rl_deploy
+[0.518s] writing list of installed files to '/home/lwx/data/git/rl_deploy/build/rl_deploy/install.log'
+[0.527s] Invoked command in '/home/lwx/data/git/rl_deploy/src/rl_deploy' returned '0': AMENT_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lwx/data/git/rl_deploy/install/common_msg LD_LIBRARY_PATH=/home/lwx/data/git/rl_deploy/install/common_msg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/lib:/usr/local/cuda-12.1/lib64 PYTHONPATH=/home/lwx/data/git/rl_deploy/build/rl_deploy/prefix_override:/home/lwx/data/git/rl_deploy/install/rl_deploy/lib/python3.8/site-packages:/home/lwx/data/git/rl_deploy/install/common_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rl_deploy build --build-base /home/lwx/data/git/rl_deploy/build/rl_deploy/build install --record /home/lwx/data/git/rl_deploy/build/rl_deploy/install.log --install-scripts $base/lib/rl_deploy --single-version-externally-managed

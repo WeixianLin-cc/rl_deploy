@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "rl_node = rl_deploy.rl_deploy:main"
+            "rl_node = rl_deploy.rl_deploy_saw:main"
         ],
     },
 )
